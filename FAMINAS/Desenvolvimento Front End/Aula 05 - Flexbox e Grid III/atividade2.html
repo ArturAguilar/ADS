@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Justify Content no CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            border: 1px solid #000;
+            width: 250px;
+            height: 250px;
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+        }
+
+        .column {
+            border: 1px solid #000;
+            width: 250px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+
+        .col {
+            border: 1px solid #000;
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .space-between {
+            justify-content: space-between;
+        }
+
+        .space-around {
+            justify-content: space-around;
+        }
+
+        .space-evenly {
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row flex-start" title="justify-content: flex-start;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="row flex-end" title="justify-content: flex-end;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="row center" title="justify-content: center;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="row space-between" title="justify-content: space-between;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="row space-around" title="justify-content: space-around;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="row space-evenly" title="justify-content: space-evenly;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="column flex-start" title="justify-content: flex-start;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="column flex-end" title="justify-content: flex-end;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="column center" title="justify-content: center;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="column space-between" title="justify-content: space-between;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="column space-around" title="justify-content: space-around;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="column space-evenly" title="justify-content: space-evenly;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+    </div>
+</body>
+</html>

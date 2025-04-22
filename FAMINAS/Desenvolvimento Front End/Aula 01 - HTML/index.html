@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de HTML e Formulário de Inscrição</title>
+</head>
+<body>
+    <h1>My First Webpage</h1>
+    <p>Welcome to my first webpage!</p>
+
+    <hr>
+
+    <h2>Atributos</h2>
+    <p style="color: blue;">Este é um texto azul</p>
+    <input type="text" placeholder="Digite seu nome aqui" />
+
+    <hr>
+
+    <h2>Comentários</h2>
+    <p>Este é um parágrafo de exemplo.</p>
+    <!-- Este é um comentário em HTML -->
+
+    <hr>
+
+    <h2>Links</h2>
+    <a href="https://www.google.com.br">Clique aqui para acessar o Google</a>
+
+    <hr>
+
+    <h2>Imagens</h2>
+    <img src="https://via.placeholder.com/150" alt="Imagem de exemplo" />
+    <br>
+    <a href="https://www.google.com.br"><img src="https://via.placeholder.com/150" alt="Imagem de exemplo"></a>
+
+    <hr>
+
+    <h2>Listas</h2>
+    <ul>
+        <li>5 ovos</li>
+        <ol type="a">
+            <li>2 caipiras</li>
+            <li>3 brancos</li>
+        </ol>
+        <li>500g de queijo</li>
+        <ol type="a">
+            <li>100g muçarela</li>
+            <li>400g parmesão</li>
+            <ul type="square">
+                <li>200g parmesão em pedaço</li>
+                <li>200g parmesão ralado</li>
+            </ul>
+        </ol>
+    </ul>
+
+    <hr>
+
+    <h2>Tabelas</h2>
+    <table border="1">
+        <tr>
+            <th>Nome do Estudante</th>
+            <th>Matemática</th>
+            <th>Português</th>
+            <th>Ciências</th>
+            <th>Média dos Alunos</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>90</td>
+            <td>85</td>
+            <td>92</td>
+            <td> 89</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>78</td>
+            <td>88</td>
+            <td>80</td>
+            <td> 82</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>95</td>
+            <td>87</td>
+            <td>89</td>
+            <td> 90</td>
+        </tr>
+        <tr>
+            <td>Média da turma</td>
+            <td> 87.7</td>
+            <td> 86.7</td>
+            <td> 87</td>
+            <td>87.13</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+
+        <label for="idade"> Idade:</label>
+        <input type="number" name="idade" id="idade" required>
+        <br>
+
+        <label for="cidade"> Cidade:</label>
+        <select name="cidade" id="cidade">
+            <option value="São Paulo">São Paulo</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Belo Horizonte">Belo Horizonte</option>
+            <option value="Curitiba">Curitiba</option>
+            <option value="Porto Alegre">Porto Alegre</option>
+            <option value="Salvador">Salvador</option>
+            <option value="Fortaleza">Fortaleza</option>
+            <option value="Recife">Recife</option>
+            <option value="Brasília">Brasília</option>
+            <option value="Manaus">Manaus</option>
+            <option value="Belém">Belém</option>
+            <option value="Goiânia">Goiânia</option>
+            <option value="São Luís">São Luís</option>
+            <option value="Natal">Natal</option>
+            <option value="Teresina">Teresina</option>
+            <option value="Maceió">Maceió</option>
+            <option value="João Pessoa">João Pessoa</option>
+            <option value="Aracaju">Aracaju</option>
+            <option value="Campo Grande">Campo Grande</option>
+            <option value="Cuiabá">Cuiabá</option>
+            <option value="Palmas">Palmas</option>
+            <option value="Rio Branco">Rio Branco</option>
+            <option value="Boa Vista">Boa Vista</option>
+            <option value="Macapá">Macapá</option>
+            <option value="Porto Velho">Porto Velho</option>
+            <option value="Florianópolis">Florianópolis</option>
+            <option value="Vitória">Vitória</option>
+            <option value="São José">São José</option>
+            <option value="Niterói">Niterói</option>
+            <option value="Duque de Caxias">Duque de Caxias</option>
+            <option value="São Gonçalo">São Gonçalo</option>
+            <option value="Contagem">Contagem</option>
+        </select>
+        <br>
+
+        <label for="observacoes"> Observações:</label>
+        <textarea name="observacoes" id="observacoes"></textarea>
+        <br>
+
+        <button type="submit">Inscrever-se</button>
+    </form>
+</body>
+</html>

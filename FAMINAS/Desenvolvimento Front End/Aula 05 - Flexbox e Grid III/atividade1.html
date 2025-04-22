@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Flex Direction no CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .row {
+            border: 1px solid #000;
+            width: 300px;
+            height: 150px;
+            display: flex;
+            flex-direction: row ;
+            margin: 10px;
+        }
+
+        .row-reverse {
+            border: 1px solid #000;
+            width: 300px;
+            height: 150px;
+            display: flex;
+            flex-direction: row-reverse ;
+            margin: 10px;
+        }
+
+        .column {
+            border: 1px solid #000;
+            width: 300px;
+            height: 150px;
+            display: flex;
+            flex-direction: column ;
+            margin: 10px;
+        }
+
+        .column-reverse {
+            border: 1px solid #000;
+            width: 300px;
+            height: 150px;
+            display: flex;
+            flex-direction: column-reverse ;
+            margin: 10px;
+        }
+
+        .col{
+            border: 1px solid #000;
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row" title="flex-direction: row ;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="row-reverse" title="flex-direction: row-reverse ;"> 
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="column" title="flex-direction: column;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+
+        <div class="column-reverse" title="flex-direction: column-reverse;">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+    </div>
+</body>
+</html>

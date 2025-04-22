@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Combinadores no CSS</title>
+
+    <style>
+        div.container p.destaque{
+            color: red;
+            background-color: yellow;
+            padding: 5px;
+        }
+
+        h1,h2{
+            color:darkblue;
+            text-align: center;       
+        }
+
+        .container p{
+            color:green;
+            font-style: italic;
+        }
+
+        .container > p{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>combinadores</h1>
+    <div class="container">
+        <h2>exemplo de descendente</h2>
+        <p>este é um exemplo de descendente de .cantainer</p>
+        <div>
+            <p>este é um exemplo esta em outra div, mas ainda e descendente de .container</p>
+        </div>
+        <p class="destaque">este e um paragrafo com multiplas condiçoes</p>
+
+        <section>
+            <p>este paragrafo nao e filho direto da .container, mas ainda é descendente.</p>
+        </section>
+    </div>
+    <p>este paragrafo não é filho da .container</p>
+</body>
+</html>
