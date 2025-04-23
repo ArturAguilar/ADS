@@ -1,0 +1,19 @@
+div.container p.destaque{
+    color: red;
+    background-color: yellow;
+    padding: 5px;
+}
+
+h1,h2{
+    color:darkblue;
+    text-align: center;       
+}
+
+.container p{
+    color:green;
+    font-style: italic;
+}
+
+.container > p{
+    font-weight: bold;
+}

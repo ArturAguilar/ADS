@@ -1,0 +1,32 @@
+h1{
+    color: greenyellow;
+}
+
+.red{
+    background: red;
+    color: white;
+}
+
+.yellow{
+    background: yellow;
+    color: black;
+}
+
+.blue{
+    background: blue;
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sumir{
+    display: none;
+}
+
+div{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}

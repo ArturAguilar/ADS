@@ -1,0 +1,10 @@
+body{
+    color: rgb(241, 119, 5);
+}
+
+.texto-com-background{
+    background-color: rgb(255, 230, 3);
+}
+#texto-com-outra-cor{
+    color: rgb(9, 173, 3);
+}

@@ -1,0 +1,11 @@
+div{
+    background: yellow;
+}
+
+p, h5{
+    color: red;
+}
+
+h2, h3{
+    color: blue;
+}

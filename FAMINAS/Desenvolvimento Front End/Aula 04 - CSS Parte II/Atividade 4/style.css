@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ff0000;
+    z-index: 9999;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.container{
+    position: relative;
+    margin: 50px 0;
+}
+
+.higtlight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ff0;
+}
